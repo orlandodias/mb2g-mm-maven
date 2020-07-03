@@ -11,8 +11,11 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>web-app</module>
         <module>jpa-entities</module>
         <module>from-intellij</module>
+        <module>web-api</module>
+        <module>converters</module>
     </modules>
 
     <properties>
@@ -22,4 +25,5 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
+
 </project>
