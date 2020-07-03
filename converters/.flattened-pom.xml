@@ -6,11 +6,13 @@
   <artifactId>converters</artifactId>
   <version>1.0-SNAPSHOT</version>
   <properties>
+    <lombok.version>1.18.12</lombok.version>
     <maven.compiler.target>11</maven.compiler.target>
     <java.version>11</java.version>
     <maven.compiler.source>11</maven.compiler.source>
     <mapstruct.version>1.3.1.Final</mapstruct.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <hibernate.core.version>5.4.18.Final</hibernate.core.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <revision>1.0-SNAPSHOT</revision>
   </properties>
